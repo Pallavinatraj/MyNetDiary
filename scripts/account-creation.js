@@ -1,4 +1,4 @@
-document.querySelector("form").addEventListener("submit",mydata);
+ document.querySelector("form").addEventListener("submit",mydata);
 let arr=JSON.parse(localStorage.getItem("data")) || [];
 
 function mydata(event){
